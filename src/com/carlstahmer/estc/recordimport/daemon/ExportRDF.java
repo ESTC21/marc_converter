@@ -956,6 +956,325 @@ public class ExportRDF {
 			} else if (fieldType.equals("600")) {
 				// do 600 (subject term - personal name)
 				
+				
+				String sixhundySubA = "";
+				String sixhundySubB = "";
+				String sixhundySubC = "";
+				String sixhundySubD = "";
+				String sixhundySubE = "";
+				String sixhundySubF = "";
+				String sixhundySubG = "";
+				String sixhundySubH = "";
+				String sixhundySubI = "";
+				String sixhundySubJ = "";
+				String sixhundySubK = "";
+				String sixhundySubL = "";
+				String sixhundySubM = "";
+				String sixhundySubN = "";
+				String sixhundySubO = "";
+				String sixhundySubP = "";
+				String sixhundySubQ = "";
+				String sixhundySubR = "";
+				String sixhundySubS = "";
+				String sixhundySubT = "";
+				String sixhundySubU = "";
+				String sixhundySubV = "";
+				String sixhundySubW = "";
+				String sixhundySubX = "";
+				String sixhundySubY = "";
+				String sixhundySubZ = "";
+				
+				ArrayList<String> subFieldAsx = sqlObj.selectSubFieldValuesByID(fieldID, "a");
+				for (int imp=0;imp < subFieldAsx.size();imp++) {
+					sixhundySubA = fixAmper(subFieldAsx.get(imp));
+				}
+				ArrayList<String> subFieldBsx = sqlObj.selectSubFieldValuesByID(fieldID, "b");
+				for (int impb=0;impb < subFieldBsx.size();impb++) {
+					sixhundySubB = fixAmper(subFieldBsx.get(impb));
+				}
+				ArrayList<String> subFieldCxs = sqlObj.selectSubFieldValuesByID(fieldID, "c");
+				for (int impc=0;impc < subFieldCxs.size();impc++) {
+					sixhundySubC = fixAmper(subFieldCxs.get(impc));
+				}
+				ArrayList<String> subFieldDxs = sqlObj.selectSubFieldValuesByID(fieldID, "d");
+				for (int imp=0;imp < subFieldDxs.size();imp++) {
+					sixhundySubD = fixAmper(subFieldDxs.get(imp));
+				}
+				ArrayList<String> subFieldEsx = sqlObj.selectSubFieldValuesByID(fieldID, "e");
+				for (int impb=0;impb < subFieldEsx.size();impb++) {
+					sixhundySubE = fixAmper(subFieldEsx.get(impb));
+				}
+				ArrayList<String> subFieldFxs = sqlObj.selectSubFieldValuesByID(fieldID, "f");
+				for (int impc=0;impc < subFieldFxs.size();impc++) {
+					sixhundySubF = fixAmper(subFieldFxs.get(impc));
+				}				
+				ArrayList<String> subFieldGxs = sqlObj.selectSubFieldValuesByID(fieldID, "g");
+				for (int imp=0;imp < subFieldGxs.size();imp++) {
+					sixhundySubG = fixAmper(subFieldGxs.get(imp));
+				}
+				ArrayList<String> subFieldHxs = sqlObj.selectSubFieldValuesByID(fieldID, "h");
+				for (int impb=0;impb < subFieldHxs.size();impb++) {
+					sixhundySubH = fixAmper(subFieldHxs.get(impb));
+				}
+				ArrayList<String> subFieldIxs = sqlObj.selectSubFieldValuesByID(fieldID, "i");
+				for (int impc=0;impc < subFieldIxs.size();impc++) {
+					sixhundySubI = fixAmper(subFieldIxs.get(impc));
+				}				
+				ArrayList<String> subFieldJxs = sqlObj.selectSubFieldValuesByID(fieldID, "j");
+				for (int imp=0;imp < subFieldJxs.size();imp++) {
+					sixhundySubJ = fixAmper(subFieldJxs.get(imp));
+				}
+				ArrayList<String> subFieldKxs = sqlObj.selectSubFieldValuesByID(fieldID, "k");
+				for (int impb=0;impb < subFieldKxs.size();impb++) {
+					sixhundySubK = fixAmper(subFieldKxs.get(impb));
+				}
+				ArrayList<String> subFieldLxs = sqlObj.selectSubFieldValuesByID(fieldID, "l");
+				for (int impc=0;impc < subFieldLxs.size();impc++) {
+					sixhundySubL = fixAmper(subFieldLxs.get(impc));
+				}				
+				ArrayList<String> subFieldMxs = sqlObj.selectSubFieldValuesByID(fieldID, "m");
+				for (int imp=0;imp < subFieldMxs.size();imp++) {
+					sixhundySubM = fixAmper(subFieldMxs.get(imp));
+				}
+				ArrayList<String> subFieldNxs = sqlObj.selectSubFieldValuesByID(fieldID, "n");
+				for (int impb=0;impb < subFieldNxs.size();impb++) {
+					sixhundySubN = fixAmper(subFieldNxs.get(impb));
+				}
+				ArrayList<String> subFieldOxs = sqlObj.selectSubFieldValuesByID(fieldID, "o");
+				for (int impc=0;impc < subFieldOxs.size();impc++) {
+					sixhundySubO = fixAmper(subFieldOxs.get(impc));
+				}				
+				ArrayList<String> subFieldPxs = sqlObj.selectSubFieldValuesByID(fieldID, "p");
+				for (int imp=0;imp < subFieldPxs.size();imp++) {
+					sixhundySubP = fixAmper(subFieldPxs.get(imp));
+				}
+				ArrayList<String> subFieldQxs = sqlObj.selectSubFieldValuesByID(fieldID, "q");
+				for (int impb=0;impb < subFieldQxs.size();impb++) {
+					sixhundySubQ = fixAmper(subFieldQxs.get(impb));
+				}
+				ArrayList<String> subFieldRxs = sqlObj.selectSubFieldValuesByID(fieldID, "r");
+				for (int impc=0;impc < subFieldRxs.size();impc++) {
+					sixhundySubR = fixAmper(subFieldRxs.get(impc));
+				}				
+				ArrayList<String> subFieldSxs = sqlObj.selectSubFieldValuesByID(fieldID, "s");
+				for (int imp=0;imp < subFieldSxs.size();imp++) {
+					sixhundySubS = fixAmper(subFieldSxs.get(imp));
+				}
+				ArrayList<String> subFieldTxs = sqlObj.selectSubFieldValuesByID(fieldID, "t");
+				for (int impb=0;impb < subFieldTxs.size();impb++) {
+					sixhundySubT = fixAmper(subFieldTxs.get(impb));
+				}
+				ArrayList<String> subFieldUxs = sqlObj.selectSubFieldValuesByID(fieldID, "u");
+				for (int impc=0;impc < subFieldUxs.size();impc++) {
+					sixhundySubU = fixAmper(subFieldUxs.get(impc));
+				}				
+				ArrayList<String> subFieldVxs = sqlObj.selectSubFieldValuesByID(fieldID, "v");
+				for (int imp=0;imp < subFieldVxs.size();imp++) {
+					sixhundySubV = fixAmper(subFieldVxs.get(imp));
+				}
+				ArrayList<String> subFieldWxs = sqlObj.selectSubFieldValuesByID(fieldID, "w");
+				for (int impb=0;impb < subFieldWxs.size();impb++) {
+					sixhundySubW = fixAmper(subFieldWxs.get(impb));
+				}
+				ArrayList<String> subFieldXxs = sqlObj.selectSubFieldValuesByID(fieldID, "x");
+				for (int impc=0;impc < subFieldXxs.size();impc++) {
+					sixhundySubX = fixAmper(subFieldXxs.get(impc));
+				}				
+				ArrayList<String> subFieldYxs = sqlObj.selectSubFieldValuesByID(fieldID, "y");
+				for (int imp=0;imp < subFieldYxs.size();imp++) {
+					sixhundySubY = fixAmper(subFieldYxs.get(imp));
+				}
+				ArrayList<String> subFieldZxs = sqlObj.selectSubFieldValuesByID(fieldID, "z");
+				for (int impb=0;impb < subFieldZxs.size();impb++) {
+					sixhundySubZ = fixAmper(subFieldZxs.get(impb));
+				}
+				
+				String sixhundyString = "";
+				boolean enteredItemSx = false;				
+				if (sixhundySubA != null && sixhundySubA.length() > 0) {
+					sixhundyString = fixCarrots(fixAmper(sixhundySubA));
+					enteredItemSx = true;
+				}
+				if (sixhundySubB != null && sixhundySubB.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + ", ";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubB));
+					enteredItemSx = true;
+				}
+				if (sixhundySubC != null && sixhundySubC.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + ", ";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubC));
+					enteredItemSx = true;
+				}
+				if (sixhundySubD != null && sixhundySubD.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + ", ";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubD));
+					enteredItemSx = true;
+				}
+				if (sixhundySubE != null && sixhundySubE.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + ", ";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubE));
+					enteredItemSx = true;
+				}
+				if (sixhundySubF != null && sixhundySubF.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubF));
+					enteredItemSx = true;
+				}
+				if (sixhundySubG != null && sixhundySubG.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubG));
+					enteredItemSx = true;
+				}
+				if (sixhundySubH != null && sixhundySubH.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubH));
+					enteredItemSx = true;
+				}
+				if (sixhundySubI != null && sixhundySubI.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubI));
+					enteredItemSx = true;
+				}		
+				if (sixhundySubJ != null && sixhundySubJ.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubJ));
+					enteredItemSx = true;
+				}
+				if (sixhundySubK != null && sixhundySubK.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubK));
+					enteredItemSx = true;
+				}
+				if (sixhundySubL != null && sixhundySubL.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubL));
+					enteredItemSx = true;
+				}
+				if (sixhundySubM != null && sixhundySubM.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubM));
+					enteredItemSx = true;
+				}	
+				if (sixhundySubN != null && sixhundySubN.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubN));
+					enteredItemSx = true;
+				}
+				if (sixhundySubO != null && sixhundySubO.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubO));
+					enteredItemSx = true;
+				}
+				if (sixhundySubP != null && sixhundySubP.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubP));
+					enteredItemSx = true;
+				}
+				if (sixhundySubQ != null && sixhundySubQ.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubQ));
+					enteredItemSx = true;
+				}					
+				if (sixhundySubR != null && sixhundySubR.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubR));
+					enteredItemSx = true;
+				}
+				if (sixhundySubS != null && sixhundySubS.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubS));
+					enteredItemSx = true;
+				}
+				if (sixhundySubT != null && sixhundySubT.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubT));
+					enteredItemSx = true;
+				}
+				if (sixhundySubU != null && sixhundySubU.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubU));
+					enteredItemSx = true;
+				}	
+				if (sixhundySubV != null && sixhundySubV.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubV));
+					enteredItemSx = true;
+				}
+				if (sixhundySubW != null && sixhundySubW.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubW));
+					enteredItemSx = true;
+				}
+				if (sixhundySubX != null && sixhundySubX.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubX));
+					enteredItemSx = true;
+				}
+				if (sixhundySubY != null && sixhundySubY.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubY));
+					enteredItemSx = true;
+				}
+				if (sixhundySubZ != null && sixhundySubZ.length() > 0) {
+					if (enteredItemSx) {
+						sixhundyString = sixhundyString + "--";
+					}
+					sixhundyString = sixhundyString + fixCarrots(fixAmper(sixhundySubZ));
+					enteredItemSx = true;
+				}
+				if (enteredItemSx) {
+					subjectTerms.add(sixhundyString);
+				}
+
+				/*
 				ArrayList<String> subFieldsToInclude = new ArrayList<String>();
 				subFieldsToInclude.add("a");
 				subFieldsToInclude.add("c");
@@ -964,6 +1283,7 @@ public class ExportRDF {
 				if (thisSubjectString != null && thisSubjectString.length() > 0) {
 					subjectTerms.add(thisSubjectString);
 				}
+				*/
 
 			} else if (fieldType.equals("610")) {
 				// do 610 (subject term - corporate name)
