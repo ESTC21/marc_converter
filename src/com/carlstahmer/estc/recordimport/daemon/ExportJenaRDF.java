@@ -42,6 +42,12 @@ import java.util.HashMap;
  * to an RDF file.</p>
  */
 
+/*
+ * Quick note.  You shouldn't actually have to change any code
+ * until line 534, where it starts constructing the RDF file.  
+ * 
+ */
+
 public class ExportJenaRDF {
 	
 	Conf configObj;

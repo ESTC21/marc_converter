@@ -42,3 +42,6 @@ liberal: 1
 #  the institutional code(s) that are used for records that are ESTC generated
 estccodes: estcstar,estcother,CU-RivES
 
+#   Output domain
+sitedomain: estc.bl.uk
+

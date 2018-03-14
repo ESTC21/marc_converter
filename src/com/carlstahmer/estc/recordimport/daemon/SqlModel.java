@@ -685,7 +685,7 @@ public class SqlModel {
 		String strSql = "SELECT records.id FROM records" +
 				" WHERE records.exported = 0" +
 				" AND records.type IN (1,3)" +
-				" ORDER BY records.id ASC";
+				" ORDER BY records.id ASC LIMIT 50000";
 
 		// define query unmatched only
 //		String strSql = "SELECT records.id FROM records" +

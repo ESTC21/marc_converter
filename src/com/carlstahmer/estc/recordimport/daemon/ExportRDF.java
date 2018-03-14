@@ -1176,26 +1176,63 @@ public class ExportRDF {
 					subH = subFieldH.get(i);
 				}
 				
+				String hierarchicalPlace = "";
+				boolean enteredItem = false;				
 				if (subA != null && subA.length() > 0) {
-					coverage.add(fixCarrots(fixPeriods(fixAmper(subA))));
+					hierarchicalPlace = fixCarrots(fixPeriods(fixAmper(subA)));
+					enteredItem = true;
+					// coverage.add(fixCarrots(fixPeriods(fixAmper(subA))));
 				}
 				if (subB != null && subB.length() > 0) {
-					coverage.add(fixCarrots(fixPeriods(fixAmper(subB))));
+					if (enteredItem) {
+						hierarchicalPlace = hierarchicalPlace + "--";
+					}
+					hierarchicalPlace = hierarchicalPlace + fixCarrots(fixPeriods(fixAmper(subB)));
+					enteredItem = true;
+					//coverage.add(fixCarrots(fixPeriods(fixAmper(subB))));
 				}
 				if (subC != null && subC.length() > 0) {
-					coverage.add(fixCarrots(fixPeriods(fixAmper(subC))));
+					if (enteredItem) {
+						hierarchicalPlace = hierarchicalPlace + "--";
+					}
+					hierarchicalPlace = hierarchicalPlace + fixCarrots(fixPeriods(fixAmper(subC)));
+					enteredItem = true;
+					//coverage.add(fixCarrots(fixPeriods(fixAmper(subC))));
 				}
 				if (subD != null && subD.length() > 0) {
-					coverage.add(fixCarrots(fixPeriods(fixAmper(subD))));
+					if (enteredItem) {
+						hierarchicalPlace = hierarchicalPlace + "--";
+					}
+					hierarchicalPlace = hierarchicalPlace + fixCarrots(fixPeriods(fixAmper(subD)));
+					enteredItem = true;
+					//coverage.add(fixCarrots(fixPeriods(fixAmper(subD))));
 				}
 				if (subF != null && subF.length() > 0) {
-					coverage.add(fixCarrots(fixPeriods(fixAmper(subF))));
+					if (enteredItem) {
+						hierarchicalPlace = hierarchicalPlace + "--";
+					}
+					hierarchicalPlace = hierarchicalPlace + fixCarrots(fixPeriods(fixAmper(subF)));
+					enteredItem = true;
+					//coverage.add(fixCarrots(fixPeriods(fixAmper(subF))));
 				}
 				if (subG != null && subG.length() > 0) {
-					coverage.add(fixCarrots(fixPeriods(fixAmper(subG))));
+					if (enteredItem) {
+						hierarchicalPlace = hierarchicalPlace + "--";
+					}
+					hierarchicalPlace = hierarchicalPlace + fixCarrots(fixPeriods(fixAmper(subG)));
+					enteredItem = true;
+					//coverage.add(fixCarrots(fixPeriods(fixAmper(subG))));
 				}
 				if (subH != null && subH.length() > 0) {
-					coverage.add(fixCarrots(fixPeriods(fixAmper(subH))));
+					if (enteredItem) {
+						hierarchicalPlace = hierarchicalPlace + "--";
+					}
+					hierarchicalPlace = hierarchicalPlace + fixCarrots(fixPeriods(fixAmper(subH)));
+					enteredItem = true;
+					//coverage.add(fixCarrots(fixPeriods(fixAmper(subH))));
+				}
+				if (enteredItem) {
+					coverage.add(hierarchicalPlace);
 				}
 			}
 			

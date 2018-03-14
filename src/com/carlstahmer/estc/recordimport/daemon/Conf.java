@@ -270,7 +270,7 @@ public class Conf {
 			if (cmd.hasOption("sitedomain")) {
 				String sitedomainVal = cmd.getOptionValue("sitedomain");
 				if(sitedomainVal != null) {
-					sitedomain = sitedomain;
+					sitedomain = sitedomainVal;
 				}
 			}
 			if (cmd.hasOption("help")) {
