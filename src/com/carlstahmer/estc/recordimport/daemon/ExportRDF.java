@@ -953,7 +953,7 @@ public class ExportRDF {
 						fiveHundNotes.add(baseNote);
 					}
 				}
-			} else if (fieldType.equals("600")) {
+			} else if (fieldType.equals("600") || fieldType.equals("610") || fieldType.equals("611")) {
 				// do 600 (subject term - personal name)
 				
 				
@@ -1272,39 +1272,6 @@ public class ExportRDF {
 				}
 				if (enteredItemSx) {
 					subjectTerms.add(sixhundyString);
-				}
-
-				/*
-				ArrayList<String> subFieldsToInclude = new ArrayList<String>();
-				subFieldsToInclude.add("a");
-				subFieldsToInclude.add("c");
-				subFieldsToInclude.add("d");
-				String thisSubjectString = getSubject(recordID, "600", subFieldsToInclude, " ");
-				if (thisSubjectString != null && thisSubjectString.length() > 0) {
-					subjectTerms.add(thisSubjectString);
-				}
-				*/
-
-			} else if (fieldType.equals("610")) {
-				// do 610 (subject term - corporate name)
-				
-				ArrayList<String> subFieldsToInclude = new ArrayList<String>();
-				subFieldsToInclude.add("a");
-				String thisSubjectString = getSubject(recordID, "610", subFieldsToInclude, " ");
-				if (thisSubjectString != null && thisSubjectString.length() > 0) {
-					subjectTerms.add(thisSubjectString);
-				}
-
-			} else if (fieldType.equals("611")) {
-				// do 611 (subject term - meeting)
-				
-				ArrayList<String> subFieldsToInclude = new ArrayList<String>();
-				subFieldsToInclude.add("a");
-				subFieldsToInclude.add("b");
-				subFieldsToInclude.add("c");
-				String thisSubjectString = getSubject(recordID, "611", subFieldsToInclude, " ");
-				if (thisSubjectString != null && thisSubjectString.length() > 0) {
-					subjectTerms.add(thisSubjectString);
 				}
 
 			} else if (fieldType.equals("630")) {
