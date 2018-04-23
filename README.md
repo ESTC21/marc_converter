@@ -1,1 +1,0 @@
-# swq_viz_ingestion

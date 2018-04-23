@@ -21,16 +21,37 @@ purposes.
 
 Copyright, 2016, Carl Stahmer http://www.carlstahmer.com
 
-DEVELOPMENT NOTES:
-------------------
 
---when running, need to pass an argument 'export' or 'import' to tell the 
-system which process should run
 
---for MARC record import, need to set the correct flag for holding, bib, 
-or orphan around line 96 of LoadMarc.java.  Future forward I should set this
-as a runtime argument.  Better yet, it would read the file and make a 
-determination on its own.  This should be possible because the records look
-different than holding records and there is no ESTC number in the record
-as there are with BIBs, so I should be able to set on-the-fly.
+CONFIGURATION:
+-----------
+
+--configuration values must be set in config.yml
+
+--You must also indicate via command line at run time whether to run an
+-import or -export.  The complete list of values that may be set at run
+time are:
+
+	 * <p>Requires the presence of a config.yml file in the application root to run. 
+	 * Values in config.yml can be overwritten at runtime via unix style command line
+	 * arguments as defined in the parameters section of this documentation.  The
+	 * config.yml file must be in place even if you supply other configuration 
+	 * information via the command line.</p>
+	 *
+	 * @param  	-listendir		/full/directory/path/of/listen/directory
+	 * @param  	-writedir  		/full/directory/path/of/output/directory (Deprecated)
+	 * @param	-export			flag to run in ESTC RDF export mode
+	 * @param	-exportJena		flag to run in Jena RDF export mode
+	 * @param 	-orgcode		the marc org code to use in constructing the new records
+	 * @param	-runinterval	the interval to wait between listening attempts
+	 * @param 	-dbserver		the name of the database server
+	 * @param 	-dbname			the database name
+	 * @param 	-dbuser			the database user
+	 * @param 	-dbpass			the database password
+	 * @param	-debug			flag to run in debug mode
+	 * @param	-console		flag to run log output to console instead of database
+	 * @param 	-help			flag to return help text
+
+--flags sent via command line override values in config.yml
+
 
