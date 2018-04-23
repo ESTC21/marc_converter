@@ -9,7 +9,7 @@
 listendir: /Users/cstahmer/Documents/estc_record_importer_dev
 #   The directory where the daemon should write rdf files
 #   writedir: /Users/cstahmer/Documents/estc_record_importer_dev/unmatched_RDF
-writedir: /Users/cstahmer/Documents/estc_record_importer_dev/testrdf
+writedir: /Users/cstahmer/Documents/estc_record_importer_dev/2018_04_22_1818_estc21_rdf
 
 #   The MARC organization code that will be used as the indentifier for
 #   the owner/originator of the converted records
